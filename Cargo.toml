@@ -1,0 +1,69 @@
+[package]
+name = "rust_offline"
+version = "0.1.0"
+authors = ["Daniil Naumetc <daniil.naumetc@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "*"
+meowhash = "*"
+metal = "*"
+sha3 = "*"
+ring = "*"
+twox-hash = "*"
+xxhash2 = "*"
+sha2 = "*"
+redis = "*"
+cask = "*"
+lmdb = "*"
+lmdb-rs = "*"
+lmdb-zero = "*"
+rayon = "*"
+cgmath = "*"
+protobuf = "*"
+tonic = "*"
+tls-api = "*"
+#grpc = { version = "0.5.0" }
+warp = "*"
+hyper = "*"
+#tls-api = { version = "0.1.20" }
+memmap = "*"
+
+failure = "*"
+structopt = "*"
+libloading = "*"
+notify = "*"
+minifb = "*"
+toml = "*"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
+log = "*"
+fern = { version = "*", features = ["colored"] }
+chrono = "*"
+sentry = { version = "*", features = ["with_failure"], optional = true}
+zip = "*"
+rodio = { version = "*", optional = true }
+ignore = "*"
+rust-base58 = "*"
+rand = "*"
+time = "*"
+tokio = "*"
+reqwest = "*"
+floating-duration = "*"
+strum = "*"
+strum_macros = "*"
+humantime = "*"
+winit = "*"
+
+clap = "*"
+shaderc = "*"
+libc = "*"
+foreign-types = "*"
+colored = "*"
+open = "*"
+indicatif = "*"
+thread_profiler = "*"
+half = "*"
